@@ -13,8 +13,8 @@ hi.setPenWidth(5);
 hi.setSpeed(100);
 		
 for (int i = 0; i < 360; i++) {
-	hi.move(1*i);
-	hi.turn(10);
+	hi.move(i);
+	hi.turn(20);
 	hi.setRandomPenColor();
 }
 			
